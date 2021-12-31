@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<style>
+body{
+  background:#c0c0c0; 
+}
+
+#wrapper{ 
+  width: 960px;
+  margin: 0 auto;
+  background:#f2e8c9; 
+}
+
+
+#header{
+position:relative; 
+  height: 500px;
+  background-color: #ffffff;
+   margin-bottom: 100px; 
+  border-radius: 50px;
+  box-shadow: rgba(0,0,100,0.5) 60px 0px 85px; 
+}
+img{ 
+float: left; 
+  margin: 5px 10px 20px 0;} 
+h1{ 
+  margin:0 0 0px 40px; 
+  color:#248485; 
+}
+.nomer{ /*номер телефона*/
+
+  top:20px; /*вверх-вниз */
+  left:50px; /*вправо-влево */
+  font-size: 25px; /* Размер букв подзаголовка */
+  font-style:italic; /* Курсив */
+  font-weight:bold; /* Жирный */
+  color:#541451; /* Цвет букв подзаголовка */
+}
+
+
+#sidebar{ /* Блок сайдбара */
+  background-color: #ffffff; /* Фон */
+  width: 350px; /* Ширина */
+  padding: 10px; /* Отступ текста*/
+  float: right; /* Размещаем блок */
+  border-radius: 20px; /* Закругление угла */
+  box-shadow: rgba(0,0,100,0.5) 0px 1px 3px; /* тень */
+}
+.marcer{ /* Галочки  */
+  float: left; /* Размещаем*/
+  margin: 5px 5px 0 0; /* вверх-вправо-вниз-влево */
+}
+
+/* статья */
+
+#content{ /* Блок контента */
+  margin-bottom: 10px; /* Отступ статьи от подвала */
+  width: 556px; /* Ширина статьи */
+  padding: 10px; /* Отступ*/
+  background: #ffffff; /* Фон*/
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте */
+  float: left;
+  margin: 30px 10px 10px 20px;
+}
+.right{ /* Картинка */
+  float: right;
+  margin: 10px 0 10px 20px;
+}
+
+
+#footer{ /* Блок подвала */
+  height:80px; /* Высота блока */
+  background-color: #ffffff; /* Фон */
+  margin-bottom: 10px; /* Отступ снизу */
+  border-radius: 5px; /* Закругление угла*/
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+}
+.clear{ 
+  clear: both;
+}
+  .fon{ /* Номер телефона */
+  float:left;
+  margin:20px 0 0 20px;
+}
+.fax{ /* Номер админ */
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ /* Адрес G-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>Bakery "Dazzlings"</h1>
+<!--Описание (телефон)-->
+        <p class="nomer">32-24-55 <br> +77785887166</p>
+<!--Фоновая картинка в шапке сайта-->
+      <img src="https://im.whatshot.in/img/2021/Jun/creme-n-crumbs-1624620400.jpg">
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>On our website you can find information about:</h3>
+<!--Картинки галочки-->
+        <p><img class="marcer" src="https://static6.depositphotos.com/1011646/553/i/600/depositphotos_5534661-stock-photo-check-mark.jpg" width="20" height="20">Our employees</p>
+        <p><img class="marcer" src="https://static6.depositphotos.com/1011646/553/i/600/depositphotos_5534661-stock-photo-check-mark.jpg" width="20" height="20">Our equipment</p>
+        <p><img class="marcer" src="https://static6.depositphotos.com/1011646/553/i/600/depositphotos_5534661-stock-photo-check-mark.jpg" width="20" height="20">Price</p>
+        <p><img class="marcer" src="https://static6.depositphotos.com/1011646/553/i/600/depositphotos_5534661-stock-photo-check-mark.jpg" width="20" height="20">Our creations</p>
+        <p><img class="marcer" src="https://static6.depositphotos.com/1011646/553/i/600/depositphotos_5534661-stock-photo-check-mark.jpg" width="20" height="20">Our contacts</p>
+<!--Прямая синяя линия-->
+          <hr width="320" color="#037FFC" size="4">
+<!--Общая информация в сайдбаре-->
+      <h3>Other informations you can check in our instagram @dazzlings.bakery. We are waiting for you♡</h3>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+<!--Картинка слева-->
+      <img class="left" src="https://cdnimg.webstaurantstore.com/uploads/blog/2018/8/start-a-bakery-bakery-display-case.jpg">
+<!--Заголовок статьи-->
+        <h3> Creations of our bakery</h3>
+<!--Текст статьи-->
+<p>Hello, dear lovers of tasty treats!</p>
+<p>I am 17 years old and I am glad to welcome you to my website.
+This site will be able to provide the contacts of our confectionery "Dazzlings", you can also see the menu, get acquainted with our employees and find out the prices.</p>
+<p>In the hope that this site will be convenient when ordering and choosing a cake, I created it.</p>
+<p>Thank you for choosing our pastry shop! Thanks to you, we are developing and trying to do it with love!</p>
+<!--Картинка справа-->
+      <img class="right" src="https://image.made-in-china.com/202f0j00KdEtaQvnEJrw/Bento-Cake-Box-Green-Paper-Box-Small-Cake-Small-Dessert-Love-Packaging-Gift-Box.jpg">
+
+<p>You can contact us at the indicated contacts or write in the direct of our instagram @dazzlings.bakery</p>
+<p>With love, Bakery "Dazzlings"♡</p>
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+<!--Подвал-->
+    <div id="footer"> 
+      <p class="fon"><strong>Phone number:<br> 8 778 588 71 66<br> </strong> </p>
+      <p class="fax"><strong>Admin:<br> 32-24-55</strong></p>
+      <p class="mail"><strong>G-mail:<br>saakaaulym@gmail.com</strong></p>
+
+    </div>
+  </div>
+</body>
+</html>
